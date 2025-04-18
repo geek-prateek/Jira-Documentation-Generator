@@ -9,10 +9,10 @@ const server = new McpServer({
     version: "1.0.0"
 });
 
-const OPENAI_API_KEY = "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"
+const OPENAI_API_KEY = ""
 const JIRA_BASE_URL = "https://vishwasraj345.atlassian.net";
 const JIRA_EMAIL = "vishwasraj345@gmail.com";
-const JIRA_TOKEN = "ATATT3xFfGF0DNXo_JnLSSBrxbJUxBdKknZPdhu28ZHJJ3IzKa6GcifZP2EJrXyM-Ti8Y1-tHDdsQ1TICHwW_Q-oY2NdNv4lTUiUPwO4R_w8P4ZlHjIOIRro3cE5_GrWVFPL3uMbrokSvv1dvGF2PShF_JdlaoTocFd3PgXZc3gkXZCAnp7FyIc=BA65F8FA";
+const JIRA_TOKEN = "";
 const AUTH_HEADER = "Basic " + Buffer.from(`${JIRA_EMAIL}:${JIRA_TOKEN}`).toString("base64");
 
 const openai = new OpenAI({
