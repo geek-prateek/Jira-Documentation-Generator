@@ -9,10 +9,10 @@ const server = new McpServer({
     version: "1.0.0"
 });
 
-const OPENAI_API_KEY = ""
-const JIRA_BASE_URL = "https://vishwasraj345.atlassian.net";
-const JIRA_EMAIL = "vishwasraj345@gmail.com";
-const JIRA_TOKEN = "";
+// const OPENAI_API_KEY = ""
+// const JIRA_BASE_URL = "https://vishwasraj345.atlassian.net";
+// const JIRA_EMAIL = "vishwasraj345@gmail.com";
+// const JIRA_TOKEN = "";
 const AUTH_HEADER = "Basic " + Buffer.from(`${JIRA_EMAIL}:${JIRA_TOKEN}`).toString("base64");
 
 const openai = new OpenAI({
